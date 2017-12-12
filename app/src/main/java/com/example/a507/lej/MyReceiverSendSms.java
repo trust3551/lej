@@ -12,7 +12,6 @@ import android.telephony.SmsManager;
 import android.widget.Toast;
 
 public class MyReceiverSendSms extends BroadcastReceiver {
-    int i;
     public MyReceiverSendSms() {
     }
 
