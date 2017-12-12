@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:weightSum="1"
-    android:baselineAligned="false"
-    android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    <Button
-        android:id="@+id/btSms2"
+    <EditText
+        android:id="@+id/etNum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SMS" />
+        android:text="Phone number" />
 
-    <Button
-        android:id="@+id/btContact"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Phone Number" />
+        android:id="@+id/etMsg"
+        android:text="Massage" />
 
     <Button
-        android:id="@+id/btTts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Voice recognition" />
-
+        android:text="SEND SMS"
+        android:id="@+id/btSms"
+        android:layout_centerVertical="true" />
 </LinearLayout>
